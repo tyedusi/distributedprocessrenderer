@@ -1,4 +1,7 @@
-function fibonacci(n) {
-  if (n <= 1) return n;
-  return fibonacci(n - 1) + fibonacci(n - 2);
+function singleNumber(nums) {
+  let result = 0;
+  for (const num of nums) {
+    result ^= num;
+  }
+  return result;
 }
