@@ -1,7 +1,1 @@
-function singleNumber(nums) {
-  let result = 0;
-  for (const num of nums) {
-    result ^= num;
-  }
-  return result;
-}
+const head = (arr) => arr[0];
